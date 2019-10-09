@@ -35,7 +35,7 @@
 .avatar{
     
     width: 180px;
-    height: 200px;
+    height: 180px;
     border-radius: 50%;
 }
 
@@ -76,6 +76,7 @@
   grid-template-columns: 1fr 1fr;
   border-bottom: 1px solid lightgrey;
   padding-bottom: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
