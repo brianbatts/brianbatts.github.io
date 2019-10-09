@@ -32,6 +32,13 @@
     justify-self: center;
 }
 
+.avatar{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 .contact-links{
   font-size: 15px;
 }
@@ -71,12 +78,6 @@
   padding-bottom: 24px;
 }
 
-.avatar{
-    vertical-align: middle;
-    width: 250px;
-    height: 200px;
-    border-radius: 80%;
-}
 
 p{
     font-family: 'Source Sans Pro', sans-serif;
