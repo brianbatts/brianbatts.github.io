@@ -7,7 +7,7 @@
 
 .header{
     position: relative;
-    background-color: #3b2700;
+    background-color:#adfff1;
     grid-area: 1 / 1 / span 1 / span 16;
     display: flex;
     height: 300px;
@@ -28,7 +28,7 @@
 .sidebar{
     grid-area: 2 / 3 / span 1 / span 4;
     padding: 32px 32px 32px 32px;
-    background-color:#fff3db;
+    background-color: #ebebeb;
     justify-self: center;
 }
 
@@ -42,7 +42,7 @@
 
 .content{
     position: relative;
-    background-color: #b5fff8;
+    background-color: #fff;
     grid-area: 2 / 8 / span 1 / span 9;
     padding: 10px 32px 20px 32px;
 }
@@ -51,18 +51,24 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: 'Source Sans Pro', sans-serif;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 24px;
 }
 
 .degree-content{
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: 'Source Sans Pro', sans-serif;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 24px;
 }
 
 
 .skill-content{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 24px;
 }
 
 .avatar{
